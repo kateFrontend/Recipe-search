@@ -54,7 +54,6 @@ body {
 .menu {
     display: flex;
     flex-direction: column;
-    background-color:;
     margin: 15px;
     width: 240px;
     border-bottom: 2px solid rgb(3, 88, 32);
