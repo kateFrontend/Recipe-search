@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:  rgb(228, 248, 231);
+    margin: 0;
+
+}
+
+.header {
+    background: url(image/tasty02.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 120px;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    flex:0.6;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color:;
+    margin: 15px;
+    width: 240px;
+    border-bottom: 2px solid rgb(3, 88, 32);
+}
+
+.photo {
+    width: 240px;
+    height: 320px;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+
+.photo:hover {
+transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 88, 32);
+    font-size: 22px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.mp4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.copyright{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+font-size: 10px;
+color:#686868
+}
+
+@media all and (max-width: 850px) {
+    .header {
+        background-position: top;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+}
+
+
+@media all and (max-width: 500px) {
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+}
